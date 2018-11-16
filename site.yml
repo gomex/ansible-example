@@ -1,0 +1,8 @@
+---
+- name: configure and deploy the webservers and application code
+  hosts: tag_group_webservers
+  remote_user: ubuntu
+  become: yes
+
+  roles:
+    - geerlingguy.nginx

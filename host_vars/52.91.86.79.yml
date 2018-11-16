@@ -1,0 +1,4 @@
+nginx_vhosts:
+  - server_name: "example2.com"
+  - server_name: "example1.com"
+    listen: "443 ssl http2"

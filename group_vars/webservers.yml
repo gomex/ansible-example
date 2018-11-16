@@ -1,0 +1,2 @@
+nginx_vhosts:
+  - server_name: "example1.com"
